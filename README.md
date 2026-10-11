@@ -5,8 +5,15 @@ Keeps a team's coding agents aligned with the plan, and with each other, while t
 Agentic AI Hackathon project by **Team Yoga**: Somesh Agrawal (lead), Frederik
 Jønsson, and Mithilesh Kowshik.
 
+> **Setting it up?** [SETUP.md](SETUP.md) has every step: using the hosted Midflight
+> with your team, running it on a laptop, and deploying it to AWS.
+>
 > **New here?** Read the [code guide](docs/code-guide.md) to see how the code fits
 > together. Coding agents start with [AGENTS.md](AGENTS.md).
+
+This is the repository we submit. We built Midflight in
+[MidFlightt/MidFlight](https://github.com/MidFlightt/MidFlight), where the pull requests
+and reviews are; the commit history here is the same.
 
 ## What it does
 
@@ -147,6 +154,9 @@ In Claude or ChatGPT it's **Add custom connector** with the same URL. Developers
 also ask their agent to set up the pre-push hook (`hook_setup`), which stops a push
 Midflight isn't ready for.
 
+Every step, with what to ask your agent and how to know it worked:
+[SETUP.md](SETUP.md).
+
 ## Run it locally
 
 You need Python 3.12 and [uv](https://docs.astral.sh/uv/).
@@ -194,6 +204,7 @@ The full index is [docs/README.md](docs/README.md). The ones to read first:
 
 | Document | What it covers |
 | --- | --- |
+| [SETUP.md](SETUP.md) | Setting Midflight up: the hosted service, a laptop, or your own AWS account |
 | [docs/code-guide.md](docs/code-guide.md) | How the code is organized, file by file, and what happens when people use it |
 | [docs/architecture.md](docs/architecture.md) | Where everything runs, with technology links |
 | [docs/experiment.md](docs/experiment.md) | What we measured, what it found wrong with Midflight, and what we changed |

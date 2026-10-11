@@ -7,6 +7,7 @@ Everything in this folder, grouped by what you came for. The project's front pag
 
 | Document | What it covers |
 | --- | --- |
+| [../SETUP.md](../SETUP.md) | Setting Midflight up: the hosted service, a laptop, or your own AWS account |
 | [code-guide.md](code-guide.md) | How the code is organized, file by file, and what happens when people use it |
 | [architecture.md](architecture.md) | Where everything runs on AWS, with sequence diagrams |
 | [pages/walkthrough.html](pages/walkthrough.html) | One simulated run, step by step: what each agent told Midflight and what it answered (open in a browser after cloning) |
